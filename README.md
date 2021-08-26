@@ -3,7 +3,7 @@ The dataset is recorded some pose coordinates, I want to use it to classify the 
 
 My purpose is classified the pose in **model_train_pose.py** , which is basic modifying from **model_train_heart_disease.py**.  
 
-In 'model_train_pose.py' file, I get the some error message: **Unimplemented: Cast string to float is not supported**.  
+In **model_train_pose.py** file, I get the some error message: **Unimplemented: Cast string to float is not supported**.  
 
 I have no idea about this message means.  
 
