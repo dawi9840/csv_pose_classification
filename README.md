@@ -1,2 +1,32 @@
 # csv_pose_classification
 The dataset is record something pose coordinates, I want to use it to classify the pose.
+
+In 'model_train_pose.py' file, I get the some error message: Unimplemented: Cast string to float is not supported.  
+
+I have no idea about this message means. Is that mean my model.fit() input tensor fortmat is wrong?   
+
+But I can successful run the 'model_train_heart_disease.py' file. The 'model_train_pose.py' is basic modify from 'model_train_heart_disease.py'.
+
+Could any one help me to solve this problem? Thank a lot. 
+
+![Screenshot from 2021-08-26 16-11-49](https://user-images.githubusercontent.com/19554347/130926531-8b5709cf-4b97-45bb-8ddd-44420b3adc96.png)
+
+# Scripts 
+**model_train_heart_disease.py** - This code is Modify from Keras documents tutorial: [Structured data classification from scratch](https://keras.io/examples/structured_data/structured_data_classification_from_scratch/), I learn how to use csv file to be classified.
+
+**model_train_pose.py** - This file is what I want to classify the pose.
+
+# Installation
+
+**Conda virtual env**
+
+```bash
+
+conda create --name [env_name]  python=3.8
+conda activate [env_name]
+pip install pandas==1.1.3
+pip install numpy
+pip install tensorflow-gpu==2.6.0
+conda install cudnn==8.2.0.53
+pip install pydot
+```
