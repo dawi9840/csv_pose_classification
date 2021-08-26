@@ -1,0 +1,28 @@
+8_categories_ccoords.csv
+category = [
+                'Apanasana', 
+                'bridge_exercise', 
+                'cat_camel', 
+                'heel_raise', 
+                'lower_trunk_rotation', 
+                'side_lying_hip_abduction',
+                'single_leg_stance', 
+                'straight_leg_raises'
+]
+------------------------------------------------
+coords_dataset.csv
+category = [
+		'cat_camel',
+		'bridge',
+		'heel_raise'
+
+]
+------------------------------------------------
+5_categories_ccoords.csv
+category = [
+	'bridge_exercise',
+	'knee_to_chest',
+	'lower_trunk_rotation',
+	'side_lying_hip_abduction',
+	'single_leg_stance'
+]
