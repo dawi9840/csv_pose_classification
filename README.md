@@ -1,13 +1,15 @@
 # csv_pose_classification
-The dataset is record something pose coordinates, I want to use it to classify the pose.
+The dataset is record something pose coordinates, I want to use it to classify the pose.  
 
 In 'model_train_pose.py' file, I get the some error message: **Unimplemented: Cast string to float is not supported**.  
 
-I have no idea about this message means. Is that mean my model.fit() input tensor fortmat is wrong?   
+I have no idea about this message means.  
 
-But I can successful run the 'model_train_heart_disease.py' file.  
+Is that means my model.fit() input tensor fortmat is wrong?  
 
-The 'model_train_pose.py' is basic modify from 'model_train_heart_disease.py'.  
+However, I can successful run the **model_train_heart_disease.py** file.  
+
+The 'model_train_pose.py' is basic modify from **model_train_heart_disease.py**.  
 
 Could any one help me to solve this problem? Thank a lot. 
 
