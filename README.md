@@ -1,5 +1,7 @@
 # csv_pose_classification
-The dataset is record something pose coordinates, I want to use it to classify the pose.  
+The dataset is recorded some pose coordinates, I want to use it to classify the pose. 
+
+My purpose is classified the pose in **model_train_pose.py** , which is basic modifying from **model_train_heart_disease.py**.  
 
 In 'model_train_pose.py' file, I get the some error message: **Unimplemented: Cast string to float is not supported**.  
 
@@ -8,8 +10,6 @@ I have no idea about this message means.
 Is that means my model.fit() input tensor fortmat is wrong?  
 
 However, I can successful run the **model_train_heart_disease.py** file.  
-
-The 'model_train_pose.py' is basic modify from **model_train_heart_disease.py**.  
 
 Could any one help me to solve this problem? Thank a lot. 
 
