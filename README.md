@@ -39,7 +39,7 @@ pip install pydot
 
 I find a solution to fix the issue.  
 
-I chang the dataset label ('class') from 'string' to 'int' data type in numerical_coords_dataset.csv.  
+I chang the dataset of label ('class') columns from 'string' to 'int' data type in **numerical_coords_dataset.csv**.  
 
 And then model.fit() can start training.
 
