@@ -34,3 +34,13 @@ pip install tensorflow-gpu==2.6.0
 conda install cudnn==8.2.0.53
 pip install pydot
 ```
+
+# solutions: 
+
+I find a solution to fix the issue.  
+
+I chang the dataset label ('class') from 'string' to 'int' data type in numerical_coords_dataset.csv.  
+
+And then model.fit() can start training.
+
+![Screenshot from 2021-08-27 13-59-17](https://user-images.githubusercontent.com/19554347/131079383-4c96e398-8ecd-442b-bf74-2d465f783641.png)
